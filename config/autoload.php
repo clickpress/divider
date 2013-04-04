@@ -18,3 +18,12 @@ ClassLoader::addClasses(array
 (
 	'Trennlinie' => 'system/modules/trennlinie/Trennlinie.php',
 ));
+
+
+/**
+ * Register the templates
+ */
+TemplateLoader::addFiles(array
+(
+	'ce_trennlinie' => 'system/modules/trennlinie/templates',
+));
