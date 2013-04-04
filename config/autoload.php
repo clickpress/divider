@@ -5,7 +5,7 @@
  * 
  * Copyright (C) 2005-2013 Leo Feyer
  * 
- * @package Trennlinie
+ * @package Divider
  * @link    https://contao.org
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  */
@@ -16,7 +16,7 @@
  */
 ClassLoader::addClasses(array
 (
-	'Trennlinie' => 'system/modules/trennlinie/Trennlinie.php',
+	'ContentDivider' => 'system/modules/divider/ContentDivider.php',
 ));
 
 
@@ -25,5 +25,5 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'ce_trennlinie' => 'system/modules/trennlinie/templates',
+	'ce_divider' => 'system/modules/divider/templates',
 ));
