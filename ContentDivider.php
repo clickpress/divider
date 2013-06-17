@@ -18,7 +18,7 @@
  * Front end content element "divider".
  * @copyright  CLICKPRESS Internetagentur 2005-2013
  * @author     Stefan Schulz-Lauterbach <http://clickpress.de>
- * @package    Core
+ * @package    divider
  */
 class ContentDivider extends ContentElement
 {
