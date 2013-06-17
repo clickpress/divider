@@ -1,17 +1,17 @@
 <?php
 class DividerRunonceJob extends Controller
 {
-public function __construct()
-{
-	parent::__construct();
-}
-public function run()
-{
-	$this->import('Files');
-
-	if ((@include(TL_ROOT . '/system/modules/Divider')) !== false) 
+	public function __construct()
 	{
-		$this->Files->rrdir(TL_ROOT . 'system/modules/Divider');
+		parent::__construct();
+	}
+	public function run()
+	{
+		$this->import('Files');
+		if(is_dir('system/modules/Divider')) {
+			$this->Files->rrdir('system/modules/Divider');
+		}
+		
 	}
 }
 $objDividerRunonceJob = new DividerRunonceJob();
