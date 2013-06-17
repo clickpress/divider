@@ -1,1 +1,1 @@
-<div class="<?php echo $this->class; ?> ce_divider"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>><hr /></div>
+<div class="<?php echo $this->class; ?>"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>><hr /></div>
