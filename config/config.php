@@ -23,7 +23,7 @@
  * PHP version 5
  * @copyright  CLICKPRESS Internetagentur 
  * @author     Stefan Schulz-Lauterbach 
- * @package    Trennlinie 
+ * @package    divider 
  * @license    LGPL 
  * @filesource
  */
