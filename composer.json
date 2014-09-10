@@ -1,0 +1,37 @@
+{
+    "name": "stefansl/divider",
+    "description": "ContentElement for Contao to generate hr. Simply choose element type \"divider\" and save.",
+    "keywords": ["contao", "extension", "usability", "divider", "horizontal", "rule", "ruler", "hr"],
+    "type": "contao-module",
+    "homepage": "https://github.com/stefansl/divider",
+    "license": "LGPL-3.0+"
+    "authors":[
+        {
+            "name":"Stefan Schulz-Lauterbach",
+            "homepage":"http://clickpress.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/stefansl/divider/issues",
+        "source":"https://github.com/stefansl/divider/"
+    },
+    "require":{
+        "php":">=5.3",
+        "contao/core":">=2.8,<4",
+        "contao-community-alliance/composer-installer":"*"
+    },
+    "autoload":{
+        "classmap":[""]
+    },
+    "replace":{
+        "contao-legacy/divider":"*"
+    },
+    "extra":{
+        "contao":{
+            "sources":{
+                "divider":"system/modules/divider"
+            }
+        }
+    }
+}

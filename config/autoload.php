@@ -2,9 +2,9 @@
 
 /**
  * Contao Open Source CMS
- * 
- * Copyright (C) 2005-2013 Leo Feyer
- * 
+ *
+ * Copyright (c) 2005-2013 Leo Feyer
+ *
  * @package Divider
  * @link    https://contao.org
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
@@ -16,6 +16,8 @@
  */
 ClassLoader::addClasses(array
 (
+	// Widgets
+	'Divider'        => 'system/modules/divider/widgets/Divider.php',
 	'ContentDivider' => 'system/modules/divider/ContentDivider.php',
 ));
 

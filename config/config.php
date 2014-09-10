@@ -35,4 +35,8 @@
  	'divider' => 'ContentDivider')
  );
 
+
+$GLOBALS['TL_FFL']['divider'] = 'Divider';
+$GLOBALS['BE_FFL']['divider'] = 'Divider';
+
 ?>
