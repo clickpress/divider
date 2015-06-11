@@ -4,7 +4,7 @@
     "keywords": ["contao", "extension", "usability", "divider", "horizontal", "rule", "ruler", "hr"],
     "type": "contao-module",
     "homepage": "https://github.com/stefansl/divider",
-    "license": "LGPL-3.0+"
+    "license": "LGPL-3.0+",
     "authors":[
         {
             "name":"Stefan Schulz-Lauterbach",
