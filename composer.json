@@ -1,5 +1,5 @@
 {
-    "name": "clickpress/divider",
+    "name": "stefansl/divider",
     "description": "ContentElement for Contao to generate hr. Simply choose element type \"divider\" and save.",
     "keywords": ["contao", "extension", "usability", "divider", "horizontal", "rule", "ruler", "hr"],
     "type": "contao-module",
@@ -25,12 +25,13 @@
         "classmap":[""]
     },
     "replace":{
-        "contao-legacy/divider":"*"
+        "contao-legacy/divider":"self.version",
+        "clickpress/divider":"self.version"
     },
     "extra":{
         "contao":{
             "sources":{
-                "divider":"system/modules/divider"
+                "":"system/modules/divider"
             }
         }
     }
