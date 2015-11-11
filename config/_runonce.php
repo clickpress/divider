@@ -1,5 +1,5 @@
 <?php
-class DividerRunonceJob extends Controller
+class DividerRunonceJobTemp extends Controller
 {
     public function __construct()
     {
@@ -14,6 +14,6 @@ class DividerRunonceJob extends Controller
         }
     }
 }
-$objDividerRunonceJob = new DividerRunonceJob();
+$objDividerRunonceJob = new DividerRunonceJobTemp();
 $objDividerRunonceJob->run();
 ?>
