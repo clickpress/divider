@@ -27,7 +27,7 @@ class Divider extends \Widget
 	 * Template
 	 * @var string
 	 */
-	protected $strTemplate = 'be_widget';
+	protected $strTemplate = 'form_divider';
 
 
 	/**
