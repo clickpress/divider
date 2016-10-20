@@ -28,4 +28,5 @@ ClassLoader::addClasses(array
 TemplateLoader::addFiles(array
 (
 	'ce_divider' => 'system/modules/divider/templates',
+	'form_divider' => 'system/modules/divider/templates',
 ));
