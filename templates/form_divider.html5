@@ -6,7 +6,7 @@
 <?php else: ?>
 
     <tr class="<?= $this->rowClass ?>">
-        <td colspan="2" class="colspan headline"><hr></td>
+        <td colspan="2" class="colspan divider"><hr></td>
     </tr>
 
 <?php endif; ?>
