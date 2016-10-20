@@ -12,12 +12,12 @@
 
 
 /**
- * Class SelectMenu
+ * Class Divider
  *
- * Provide methods to handle select menus.
- * @copyright  Leo Feyer 2005-2013
- * @author     Leo Feyer <https://contao.org>
- * @package    Core
+ * Widget "divider".
+ * @copyright  CLICKPRESS Internetagentur 2005-2016
+ * @author     Stefan Schulz-Lauterbach <http://clickpress.de>
+ * @package    divider
  */
 class Divider extends \Widget
 {
@@ -36,8 +36,6 @@ class Divider extends \Widget
 	 */
 	public function generate()
 	{
-
-		return sprintf('<hr>%s',
-						$this->wizard);
+        return;
 	}
 }
