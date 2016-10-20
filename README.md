@@ -7,7 +7,7 @@ Divider
 ContentElement and formwidget for Contao to generate hr. 
 Simply choose element type "divider" and save.
 
-See demo here: https://demo.clickpress.de/index.php/progressbar.html
+See demo here: https://demo.clickpress.de/index.php/divider.html
 
 **Installation**
 
