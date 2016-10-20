@@ -15,6 +15,7 @@
  * Class Divider
  *
  * Widget "divider".
+ *
  * @copyright  CLICKPRESS Internetagentur 2005-2016
  * @author     Stefan Schulz-Lauterbach <http://clickpress.de>
  * @package    divider
@@ -23,19 +24,21 @@ class Divider extends \Widget
 {
 
 
-	/**
-	 * Template
-	 * @var string
-	 */
-	protected $strTemplate = 'form_divider';
+    /**
+     * Template
+     *
+     * @var string
+     */
+    protected $strTemplate = 'form_divider';
 
 
-	/**
-	 * Generate the widget and return it as string
-	 * @return string
-	 */
-	public function generate()
-	{
+    /**
+     * Generate the widget and return it as string
+     *
+     * @return string
+     */
+    public function generate()
+    {
         return;
-	}
+    }
 }
