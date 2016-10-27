@@ -17,7 +17,9 @@
         "source":"https://github.com/stefansl/divider/"
     },
     "require":{
-        "php": ">=5.3.7"
+        "php": ">=5.3.7",
+        "contao/core-bundle":"^3 || ^4.1",
+        "contao-community-alliance/composer-plugin":"^2.4.0 || 3.*"
     },
     "autoload":{
         "classmap":[""]
