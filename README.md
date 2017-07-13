@@ -11,5 +11,5 @@ See demo here: https://demo.clickpress.de/index.php/divider.html
 
 **Installation**
 
-Install with Composer, ER2 or manually.
+Install with ContaoManager, Composer, ER2 or manually.
 
